@@ -1,6 +1,7 @@
-form {
+.container {
   border: 3px solid #f1f1f1;
   background-color: cyan;
+  padding: 16px;
 }
 
 input {
@@ -27,8 +28,4 @@ button {
   border: none;
   cursor: pointer;
   width: 100%;
-}
-
-.container {
-  padding: 16px;
 }
