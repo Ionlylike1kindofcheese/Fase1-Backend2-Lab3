@@ -3,7 +3,7 @@ form {
   background-color: cyan;
 }
 
-input[type=text], input[type=password] {
+input {
   background-color: wheat;
   width: 100%;
   padding: 12px 20px;
@@ -12,6 +12,11 @@ input[type=text], input[type=password] {
   border: 1px solid black;
   box-sizing: border-box;
   text-align: center;
+}
+
+::placeholder {
+  color: red;
+  opacity: 1;
 }
 
 button {
