@@ -1,0 +1,29 @@
+form {
+  border: 3px solid #f1f1f1;
+  background-color: cyan;
+}
+
+input[type=text], input[type=password] {
+  background-color: wheat;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.container {
+  padding: 16px;
+}
